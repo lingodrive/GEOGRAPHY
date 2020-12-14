@@ -1,0 +1,114 @@
+body {
+      background-image: url("bg5.jpg");
+      background-repeat: no-repeat;
+      background-size: 1800px 1500px;
+      background-position: center
+     }
+h1 {
+  text-align: center;
+  color: darkgreen;
+  text-decoration: underline;
+  background-image: linear-gradient(#ffc0cb ,pink,indianred);
+  font-size:56px;
+}
+ul {
+  color: maroon;
+  background-image: linear-gradient(yellow,orange,pink);
+  font-size:32px;
+}
+.aditya {
+  color: turquoise;
+  background-image: linear-gradient(purple,tomato,red);
+  font-size:32px;
+}
+.pubg {
+  color: darkblue;
+  background-image: linear-gradient(pink,#ffc0cb,indianred);
+  font-size:32px;
+}
+.milk {
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 18px 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:absolute;
+  top:0;
+  right:0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  display: block;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16.5px;
+  color: white;
+  text-align: center;
+  padding: 2px 1px;
+  text-decoration: none;
+}
+.dropdown .active {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  padding: 16px 0px;
+  background-color: green;
+  margin: 0;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  padding: 16px 1px;
+  background-color: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
